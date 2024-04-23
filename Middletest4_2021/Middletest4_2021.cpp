@@ -23,10 +23,15 @@ int Complex::count = 0;
 
 int main(){
     Complex com1(1.0, 2.0), com2(3.0, 4.0);
+    //count = 2;
     double ret = com1.GetRealAdd(com1, com2);
-
+    //count = 1;
     Complex* pcom4 = new Complex;
+    //count = 2;
     cout << com1.GetCount() << endl;
     delete pcom4;
+    //count = 1;
     cout << com1.GetCount() << endl;
+    return 0;
+    //count = -1;
 }

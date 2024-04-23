@@ -15,11 +15,12 @@ void cha(Point &a, Point b){
     t.x = a.x;
     a.x = b.x;
     b.x = t.x;
+
     t.y = a.y;
     a.y = b.y;
     b.y = t.y;
 }
-
+//
 int main(){
     Point a(3,6), b;
     cha(b, a);

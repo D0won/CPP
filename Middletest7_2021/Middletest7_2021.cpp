@@ -22,8 +22,7 @@ public:
 
 Rect::Rect(int a, int b, int c, int d, int e) : leftUp(a,b), rightLow(c, d), color(e)
 {
-     // leftUp(a, b); <- 이럴 경우는 안됨.
-     // rightLow(c, d); <- 마찬가지. 
+
 }                                                                                                                                                                                                                                                                                                                                                         
 void Rect::ShowRect() {
     cout << "좌상단점 좌표 :" << leftUp.GetX() <<" " << leftUp.GetY() << "\n";

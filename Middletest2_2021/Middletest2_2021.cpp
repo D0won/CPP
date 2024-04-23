@@ -15,10 +15,10 @@ void Bat::bil(Bat ot, int a) // 같은 클래스의 멤버 함수라고 해도 �
     ot.bb += a*10;
 } 
 
+
 int main(void)
 {
     Bat a1(2000), a2;
-
     a1.bil(a2, 500);
     a1.print();
     a2.print();
