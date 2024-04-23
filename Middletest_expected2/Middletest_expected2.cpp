@@ -29,12 +29,3 @@ int main(void)
 
     return 0;
 }
-
-/*
-P
-P
-P
-P
-P
-
-*/
