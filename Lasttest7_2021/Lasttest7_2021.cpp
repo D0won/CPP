@@ -12,7 +12,7 @@ public:
 	}
 	const Tmp operator++(int) { // 후위
 		Tmp ret = *this;
-		x += 10;
+		ret.x += 10;
 		return ret;
 	}
 	friend ostream& operator<<(ostream& os, const Tmp& v);
@@ -22,9 +22,11 @@ ostream& operator<<(ostream& os, const Tmp& v) {
 	os << v.x << endl;
 	return os;
 }
+
 int main() {
 	Tmp b(0);
-
+int a = 1;
+std::cout << a++;
 	cout << (++(++b))++;
 	cout << b;	
 

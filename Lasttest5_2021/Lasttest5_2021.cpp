@@ -10,7 +10,7 @@ T1 PrintData(T1 data1, T2 data2) {
 	return ret;
 }
 
-void main() {
+int  main() {
 	int a = PrintData(5, "안녕");
 	cout << a << endl;
 

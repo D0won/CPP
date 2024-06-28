@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-
+using namespace std;
 class CBox {
 public:
 	int a;

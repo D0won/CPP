@@ -28,11 +28,10 @@ int main() {
     Mammal* pDog = new Dog;
     pDog->Speak();  // Dog 클래스의 Speak 함수가 호출됨. 출력: 멍멍
 
-    delete pDog;
 
-    Mammal* pPig = new Pig;
-    pPig->Speak();  // Pig 클래스의 Speak 함수가 호출됨. 출력: 꿀꿀
-    delete pPig;
+    pDog = new Pig;
+    pDog->Speak();  // Pig 클래스의 Speak 함수가 호출됨. 출력: 꿀꿀
+    delete pDog;
 
     return 0;
 }
